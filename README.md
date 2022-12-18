@@ -38,8 +38,9 @@ Make sure to run the cells from top to bottom with a GPU accelerator. There are 
  ## MobileNetV2
 ![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
 
-In MobileNetV2, there are two types of blocks. One is residual block with stride of 1. Another one is block with stride of 2 for downsizing.
-There are 3 layers for both types of blocks.
-This time, the first layer is 1×1 convolution with ReLU6.
-The second layer is the depthwise convolution.
-The third layer is another 1×1 convolution but without any non-linearity. It is claimed that if ReLU is used again, the deep networks only have the power of a linear classifier on the non-zero volume part of the output domain.
+In MobileNetV2, 
+* there are two types of blocks. One is residual block with stride of 1. Another one is block with stride of 2 for downsizing.
+* There are 3 layers for both types of blocks.
+* This time, the first layer is 1×1 convolution with ReLU6.
+* The second layer is the depthwise convolution.
+* The third layer is another 1×1 convolution but without any non-linearity. It is claimed that if ReLU is used again, the deep networks only have the power of a linear classifier on the non-zero volume part of the output domain.
