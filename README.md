@@ -64,3 +64,11 @@ In MobileNetV2,
 ![image](https://user-images.githubusercontent.com/64637562/208298641-d4780ee1-78e9-434f-83c6-8fc6db097566.png)
 * And there is an expansion factor t. And t=6 for all main experiments.
 * If the input got 64 channels, the internal output would get 64×t=64×6=384 channels.
+### Architecture
+![image](https://user-images.githubusercontent.com/64637562/208305340-41a20137-e508-4a67-bf93-826299d5fbef.png)
+
+* where t: expansion factor, c: number of output channels, n: repeating number, s: stride. 3×3 kernels are used for spatial convolution.
+* In typical, the primary network (width multiplier 1, 224×224), has a computational cost of 300 million multiply-adds and uses 3.4 million parameters. (Width multiplier is introduced in MobileNetV1.)
+* The performance trade offs are further explored, for input resolutions from 96 to 224, and width multipliers of 0.35 to 1.4.
+* The network computational cost up to 585M MAdds, while the model size vary between 1.7M and 6.9M parameters.
+* To train the network, 16 GPU is used with batch size of 96.
