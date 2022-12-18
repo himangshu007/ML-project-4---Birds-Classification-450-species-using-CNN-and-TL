@@ -23,7 +23,16 @@ There are an estimated 30,000 threatened species across the globe. Scientists ar
 Make sure to run the cells from top to bottom with a GPU accelerator. There are some linux commands present in some cells so this is important to take into account. Also, any suggestions, comments and recommendations to improve the notebook will be highly appreciated. Cheers!
 
 ## Steps Involved 
-### 1 # 🏗️Import Necessary Libraries
-
+### 1  🏗️Import Necessary Libraries
+### 2  🤙Create helper functions
+### 3  📥Load and Transform Data
+### 4  📅Placing data into a Dataframe
+### 5  🔭Visualizing images from the dataset
 
 ![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
+ ## MobileNetV2
+In MobileNetV2, there are two types of blocks. One is residual block with stride of 1. Another one is block with stride of 2 for downsizing.
+There are 3 layers for both types of blocks.
+This time, the first layer is 1×1 convolution with ReLU6.
+The second layer is the depthwise convolution.
+The third layer is another 1×1 convolution but without any non-linearity. It is claimed that if ReLU is used again, the deep networks only have the power of a linear classifier on the non-zero volume part of the output domain.
