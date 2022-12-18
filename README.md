@@ -74,17 +74,28 @@ In MobileNetV2,
 * The network computational cost up to 585M MAdds, while the model size vary between 1.7M and 6.9M parameters.
 * To train the network, 16 GPU is used with batch size of 96.
 
+## ✔️Model Evaluation
+The test dataset will be used to evaluate the performance of the model.One of the metrics that will be tested would be accuracy which measures the fraction of predictions the model got right. Other metrics are as follows:
+
+**Precision(P)**: 
+The fraction of true positives (TP, correct predictions) from the total amount of relevant results, i.e., the sum of TP and false positives (FP). For multi-class classification problems, P is averaged among the classes. The following is the formula for precision.
+
+<center>$P=TP/(TP+FP)$</center>
+
+**Recall(R)**: 
+The fraction of TP from the total amount of TP and false negatives (FN). For multi-class classification problems, R gets averaged among all the classes. The following is the formula for recall.
+<center>$R=TP/(TP+FN)$</center>
+
+**F1 score(F1)**: 
+The harmonic mean of precision and recall. For multi-class classification problems, F1 gets averaged among all the classes. The following is the formula for F1 score.
+<center>$F1=2 * (TP * FP)/(TP+FP)$</center>
 
 
+## 📊 the Classification Reports
                                precision    recall  f1-score   support
 
               ABBOTTS BABBLER       0.63      0.81      0.71        27
                 ABBOTTS BOOBY       0.87      0.61      0.71        33
-   ABYSSINIAN GROUND HORNBILL       0.94      0.86      0.90        35
-        AFRICAN CROWNED CRANE       0.97      1.00      0.98        32
-       AFRICAN EMERALD CUCKOO       0.82      0.78      0.80        23
-            AFRICAN FIREFINCH       0.74      0.81      0.77        21
-       AFRICAN OYSTER CATCHER       0.97      0.94      0.95        31
         AFRICAN PIED HORNBILL       0.83      0.75      0.79        40
                     ALBATROSS       0.79      0.79      0.79        28
                ALBERTS TOWHEE       0.84      0.93      0.88        28
