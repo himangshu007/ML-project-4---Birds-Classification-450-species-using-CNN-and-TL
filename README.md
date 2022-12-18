@@ -50,3 +50,6 @@ In MobileNetV2,
 * This time, the first layer is 1×1 convolution with ReLU6.
 * The second layer is the depthwise convolution.
 * The third layer is another 1×1 convolution but without any non-linearity. It is claimed that if ReLU is used again, the deep networks only have the power of a linear classifier on the non-zero volume part of the output domain.
+![image](https://user-images.githubusercontent.com/64637562/208298641-d4780ee1-78e9-434f-83c6-8fc6db097566.png)
+* And there is an expansion factor t. And t=6 for all main experiments.
+* If the input got 64 channels, the internal output would get 64×t=64×6=384 channels.
