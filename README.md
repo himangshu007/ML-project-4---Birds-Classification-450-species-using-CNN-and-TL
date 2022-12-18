@@ -73,3 +73,24 @@ In MobileNetV2,
 * The performance trade offs are further explored, for input resolutions from 96 to 224, and width multipliers of 0.35 to 1.4.
 * The network computational cost up to 585M MAdds, while the model size vary between 1.7M and 6.9M parameters.
 * To train the network, 16 GPU is used with batch size of 96.
+
+
+
+                               precision    recall  f1-score   support
+
+              ABBOTTS BABBLER       0.63      0.81      0.71        27
+                ABBOTTS BOOBY       0.87      0.61      0.71        33
+   ABYSSINIAN GROUND HORNBILL       0.94      0.86      0.90        35
+        AFRICAN CROWNED CRANE       0.97      1.00      0.98        32
+       AFRICAN EMERALD CUCKOO       0.82      0.78      0.80        23
+            AFRICAN FIREFINCH       0.74      0.81      0.77        21
+       AFRICAN OYSTER CATCHER       0.97      0.94      0.95        31
+        AFRICAN PIED HORNBILL       0.83      0.75      0.79        40
+                    ALBATROSS       0.79      0.79      0.79        28
+               ALBERTS TOWHEE       0.84      0.93      0.88        28
+         ALEXANDRINE PARAKEET       0.89      0.96      0.93        26
+                ALPINE CHOUGH       0.76      0.89      0.82        36
+        ALTAMIRA YELLOWTHROAT       0.74      0.86      0.79        36
+              AMERICAN AVOCET       0.93      0.95      0.94        39
+             AMERICAN BITTERN       0.83      0.97      0.90        36
+                AMERICAN COOT       0.88      1.00      0.93        28
