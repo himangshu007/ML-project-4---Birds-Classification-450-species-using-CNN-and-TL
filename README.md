@@ -41,7 +41,8 @@ https://www.kaggle.com/datasets/gpiosenka/100-bird-species
 ### Name: 
 Convolutional Neural Network and Mobile net V2
 ### Architecture
-Model: "sequential"
+![image](https://user-images.githubusercontent.com/64637562/208312539-7f5c1e87-4916-44d6-8ada-5e463e78946c.png)
+
 
 
 <!-- ## Convolutional Neural Network (CNN)
