@@ -22,6 +22,9 @@ There are an estimated 30,000 threatened species across the globe. Scientists ar
 ## ❗Author's Note:
 Make sure to run the cells from top to bottom with a GPU accelerator. There are some linux commands present in some cells so this is important to take into account. Also, any suggestions, comments and recommendations to improve the notebook will be highly appreciated. Cheers!
 
+## Dataset link : 
+https://www.kaggle.com/datasets/gpiosenka/100-bird-species
+
 ## Steps Involved 
 ### 1  🏗️Import Necessary Libraries
 ### 2  🤙Create helper functions
