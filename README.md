@@ -47,7 +47,7 @@ Convolutional Neural Network and Mobile net V2
 
 ## Convolutional Neural Network (CNN)
 ![image](https://user-images.githubusercontent.com/64637562/208299399-c90d80e0-6035-4b03-8182-53b7234667ad.png)
-The ConvNet’s job is to compress the images into a format that is easier to process while preserving elements that are important for obtaining a decent prediction. This is critical for designing an architecture that is capable of learning features while also being scalable to large datasets.
+* The ConvNet’s job is to compress the images into a format that is easier to process while preserving elements that are important for obtaining a decent prediction. This is critical for designing an architecture that is capable of learning features while also being scalable to large datasets.
 ConvNets in short has three layers which are its building blocks, let’s have a look:
 ![image](https://user-images.githubusercontent.com/64637562/208299474-9bbb37e6-b2ef-4108-81f4-a31cce333439.png)
 
@@ -55,7 +55,10 @@ ConvNets in short has three layers which are its building blocks, let’s have a
 ![image](https://user-images.githubusercontent.com/64637562/208311448-cff37614-4934-4136-9407-4101f72fdcce.png)
 
 * Pooling Layer (POOL): This layer is in charge of reducing dimensionality. It aids in reducing the amount of computing power required to process the data. Pooling can be divided into two types: maximum pooling and average pooling. The maximum value from the area covered by the kernel on the image is returned by max pooling. The average of all the values in the part of the image covered by the kernel is returned by average pooling.
- 
+
+![image](https://user-images.githubusercontent.com/64637562/208314211-ae08b00c-2951-44ae-b123-14e8c835dd74.png)
+
+* Fully Connected Layer (FC): The fully connected layer (FC) works with a flattened input, which means that each input is coupled to every neuron. After that, the flattened vector is sent via a few additional FC layers, where the mathematical functional operations are normally performed. The classification procedure gets started at this point. FC layers are frequently found near the end of CNN architectures if they are present.
  ## MobileNetV2
 ![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
 
