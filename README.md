@@ -41,7 +41,25 @@ https://www.kaggle.com/datasets/gpiosenka/100-bird-species
 ### Name: 
 Convolutional Neural Network and Mobile net V2
 ### Architecture
-
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+mobilenetv2_1.00_224 (Functi (None, 7, 7, 1280)        2257984   
+_________________________________________________________________
+global_average_pooling2d (Gl (None, 1280)              0         
+_________________________________________________________________
+batch_normalization (BatchNo (None, 1280)              5120      
+_________________________________________________________________
+dense (Dense)                (None, 256)               327936    
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 256)               1024      
+_________________________________________________________________
+dense_1 (Dense)              (None, 450)               115650    
+=================================================================
+Total params: 2,707,714
+Trainable params: 1,652,738
+Non-trainable params: 1,054,976
 
 <!-- ## Convolutional Neural Network (CNN)
 ![image](https://user-images.githubusercontent.com/64637562/208299399-c90d80e0-6035-4b03-8182-53b7234667ad.png)
@@ -50,6 +68,7 @@ ConvNets in short has three layers which are its building blocks, let’s have a
 ![image](https://user-images.githubusercontent.com/64637562/208299474-9bbb37e6-b2ef-4108-81f4-a31cce333439.png)
 
 * Convolutional Layer (CONV): They are the foundation of CNN, and they are in charge of executing convolution operations. The Kernel/Filter is the component in this layer that performs the convolution operation (matrix). Until the complete image is scanned, the kernel makes horizontal and vertical adjustments dependent on the stride rate. The kernel is less in size than a picture, but it has more depth. This means that if the image has three (RGB) channels, the kernel height and width will be modest spatially, but the depth will span all three.
+![image](https://user-images.githubusercontent.com/64637562/208311448-cff37614-4934-4136-9407-4101f72fdcce.png)
 
 * Pooling Layer (POOL): This layer is in charge of reducing dimensionality. It aids in reducing the amount of computing power required to process the data. Pooling can be divided into two types: maximum pooling and average pooling. The maximum value from the area covered by the kernel on the image is returned by max pooling. The average of all the values in the part of the image covered by the kernel is returned by average pooling. -->
 
@@ -90,7 +109,10 @@ The fraction of TP from the total amount of TP and false negatives (FN). For mul
 The harmonic mean of precision and recall. For multi-class classification problems, F1 gets averaged among all the classes. The following is the formula for F1 score.
 <center>F1=2 * (TP * FP)/(TP+FP)</center>
 
-
+Training loss: 0.1138 
+Training accuracy: 96.43% . 
+Test Loss: 0.65063
+Test Accuracy: 84.93%
 
 
 ## 📊 the Classification Reports
