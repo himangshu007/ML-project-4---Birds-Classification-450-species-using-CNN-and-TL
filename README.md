@@ -28,9 +28,16 @@ Make sure to run the cells from top to bottom with a GPU accelerator. There are 
 ### 3  📥Load and Transform Data
 ### 4  📅Placing data into a Dataframe
 ### 5  🔭Visualizing images from the dataset
+### 6 Saving the model
+### 7  ✔️Model Evaluation
+### 8  📉Visualizing loss curves
+### 9  🔮Making predictions on the Test Data
+### 10 # 📊Plotting the Classification Reports
 
-![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
+
  ## MobileNetV2
+![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
+
 In MobileNetV2, there are two types of blocks. One is residual block with stride of 1. Another one is block with stride of 2 for downsizing.
 There are 3 layers for both types of blocks.
 This time, the first layer is 1×1 convolution with ReLU6.
