@@ -21,3 +21,4 @@ There are an estimated 30,000 threatened species across the globe. Scientists ar
 
 ## ❗Author's Note:
 Make sure to run the cells from top to bottom with a GPU accelerator. There are some linux commands present in some cells so this is important to take into account. Also, any suggestions, comments and recommendations to improve the notebook will be highly appreciated. Cheers!
+![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
