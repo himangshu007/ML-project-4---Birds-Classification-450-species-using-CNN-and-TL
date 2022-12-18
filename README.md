@@ -93,8 +93,10 @@ The fraction of TP from the total amount of TP and false negatives (FN). For mul
 The harmonic mean of precision and recall. For multi-class classification problems, F1 gets averaged among all the classes. The following is the formula for F1 score.
 <center>F1=2 * (TP * FP)/(TP+FP)</center>
 
-Test Loss: 0.21747
-Test Accuracy: 94.31
+* Training Loss: 0.1112 
+* Training Accuracy: 0.9648
+* Test Loss: 0.21747
+* Test Accuracy: 94.31
 
 
 ## 📊 the Classification Reports
