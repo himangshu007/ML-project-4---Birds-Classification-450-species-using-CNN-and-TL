@@ -40,6 +40,8 @@ https://www.kaggle.com/datasets/gpiosenka/100-bird-species
 ## Model used 
 ### Name: 
 Convolutional Neural Network and Mobile net V2
+### Architecture
+
 
  ## MobileNetV2
 ![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
