@@ -42,6 +42,11 @@ https://www.kaggle.com/datasets/gpiosenka/100-bird-species
 Convolutional Neural Network and Mobile net V2
 ### Architecture
 
+## Convolutional Neural Network (CNN)
+![image](https://user-images.githubusercontent.com/64637562/208299399-c90d80e0-6035-4b03-8182-53b7234667ad.png)
+The ConvNet’s job is to compress the images into a format that is easier to process while preserving elements that are important for obtaining a decent prediction. This is critical for designing an architecture that is capable of learning features while also being scalable to large datasets.
+ConvNets in short has three layers which are its building blocks, let’s have a look:
+Convolutional Layer (CONV): They are the foundation of CNN, and they are in charge of executing convolution operations. The Kernel/Filter is the component in this layer that performs the convolution operation (matrix). Until the complete image is scanned, the kernel makes horizontal and vertical adjustments dependent on the stride rate. The kernel is less in size than a picture, but it has more depth. This means that if the image has three (RGB) channels, the kernel height and width will be modest spatially, but the depth will span all three.
 
  ## MobileNetV2
 ![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
