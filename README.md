@@ -80,15 +80,17 @@ The test dataset will be used to evaluate the performance of the model.One of th
 **Precision(P)**: 
 The fraction of true positives (TP, correct predictions) from the total amount of relevant results, i.e., the sum of TP and false positives (FP). For multi-class classification problems, P is averaged among the classes. The following is the formula for precision.
 
-<center>$P=TP/(TP+FP)$</center>
+<center>P=TP/(TP+FP)</center>
 
 **Recall(R)**: 
 The fraction of TP from the total amount of TP and false negatives (FN). For multi-class classification problems, R gets averaged among all the classes. The following is the formula for recall.
-<center>$R=TP/(TP+FN)$</center>
+<center>R=TP/(TP+FN)</center>
 
 **F1 score(F1)**: 
 The harmonic mean of precision and recall. For multi-class classification problems, F1 gets averaged among all the classes. The following is the formula for F1 score.
-<center>$F1=2 * (TP * FP)/(TP+FP)$</center>
+<center>F1=2 * (TP * FP)/(TP+FP)</center>
+
+
 
 
 ## 📊 the Classification Reports
