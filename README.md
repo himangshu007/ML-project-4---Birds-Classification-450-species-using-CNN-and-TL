@@ -34,6 +34,9 @@ Make sure to run the cells from top to bottom with a GPU accelerator. There are 
 ### 9  🔮Making predictions on the Test Data
 ### 10 # 📊Plotting the Classification Reports
 
+## Model used 
+### Name: 
+Convolutional Neural Network and Mobile net V2
 
  ## MobileNetV2
 ![image](https://user-images.githubusercontent.com/64637562/208295257-5e008ac3-7277-446d-b670-2cd85eab3e3e.png)
