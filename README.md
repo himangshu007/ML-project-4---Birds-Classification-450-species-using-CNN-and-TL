@@ -42,24 +42,7 @@ https://www.kaggle.com/datasets/gpiosenka/100-bird-species
 Convolutional Neural Network and Mobile net V2
 ### Architecture
 Model: "sequential"
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-mobilenetv2_1.00_224 (Functi (None, 7, 7, 1280)        2257984   
-_________________________________________________________________
-global_average_pooling2d (Gl (None, 1280)              0         
-_________________________________________________________________
-batch_normalization (BatchNo (None, 1280)              5120      
-_________________________________________________________________
-dense (Dense)                (None, 256)               327936    
-_________________________________________________________________
-batch_normalization_1 (Batch (None, 256)               1024      
-_________________________________________________________________
-dense_1 (Dense)              (None, 450)               115650    
-=================================================================
-Total params: 2,707,714
-Trainable params: 1,652,738
-Non-trainable params: 1,054,976
+
 
 <!-- ## Convolutional Neural Network (CNN)
 ![image](https://user-images.githubusercontent.com/64637562/208299399-c90d80e0-6035-4b03-8182-53b7234667ad.png)
